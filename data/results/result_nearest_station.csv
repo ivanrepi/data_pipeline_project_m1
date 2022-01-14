@@ -1,4 +1,4 @@
-NOMBRE,Place address,name,address
+Place of interest,Place address,BiciMAD station,Station location
 Instalación Deportiva  Básica Embalse de San Juan,CALLE EMBALSE DE SAN JUAN 1,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Básica Alto del Retiro,CALLE ALTO DEL RETIRO 13,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Básica Avenida de Cerro Milano,AVENIDA CERRO MILANO 1,Pavones,Calle Hacienda de Pavones nº 342
@@ -44,9 +44,9 @@ Instalación Deportiva Municipal Básica Alicún,CALLE ALICUN 24,Chamartín,Call
 Instalación Deportiva Municipal Básica Aliseda,CALLE ALISEDA 0,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Almudena,CALLE NICOLAS SALMERON 8,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Ambulatorio (El Paraiso),CALLE AJOFRIN s/n,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica Americio,CALLE AMERICIO s/n,,
+Instalación Deportiva Municipal Básica Americio,CALLE AMERICIO s/n,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Ana Tutor,AVENIDA CARDENAL HERRERA ORIA 216,Pedro Rico,Calle Pedro Rico nº 4
-Instalación Deportiva Municipal Básica Andévalo,CALLE ANDEVALO 6,,
+Instalación Deportiva Municipal Básica Andévalo,CALLE ANDEVALO 6,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Anfevi,CALLE HACIENDA DE PAVONES 127,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Aniceto Marinas,CALLE ANICETO MARINAS 106,INEF,Avenida Juan de Herrera frente a la calle Paul Guinard
 Instalación Deportiva Municipal Básica Antonio Machado,CALLE ANTONIO MACHADO 14,Francos Rodríguez,Calle Francos Rodríguez nº 62
@@ -59,7 +59,7 @@ Instalación Deportiva Municipal Básica Arjona,CALLE CONCEJAL FRANCISCO JOSE JI
 Instalación Deportiva Municipal Básica Arriaga,AVENIDA DAROCA 95,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Arroyo Belincoso,AVENIDA DOCTOR GARCIA TAPIA 76,Plaza del Encuentro,Calle Arroyo de las Pilillas nº 6
 Instalación Deportiva Municipal Básica Arroyo Fontarrón,CALLE ARROYO FONTARRON 381,Pavones,Calle Hacienda de Pavones nº 342
-Instalación Deportiva Municipal Básica Arroyo Media Legua,INST. DEPORTIVA BASICA ARROYO DE LA MEDIA LEGUA s/n,,
+Instalación Deportiva Municipal Básica Arroyo Media Legua,INST. DEPORTIVA BASICA ARROYO DE LA MEDIA LEGUA s/n,Marqués de Corbera 52,Avenida Marqués de Corbera nº 52
 Instalación Deportiva Municipal Básica Arroyo de Opañel,CALLE ARROYO OPAÑEL 12,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Aster,AVENIDA ASTER 54,Colombia,Calle Colombia nº 7
 Instalación Deportiva Municipal Básica Auditorio de Chamartín,PLAZA JOAQUIN RODRIGO 1,María Francisca 1,Calle María Francisca nº 1
@@ -82,7 +82,7 @@ Instalación Deportiva Municipal Básica Baterías - Barrio Alegría,CALLE JUAN 
 Instalación Deportiva Municipal Básica Belzunegui,CALLE BELZUNEGUI s/n,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Bolera de la Mancha,CALLE TOMELLOSO 21,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Boston,CALLE BOSTON 1,Camilo José Cela,Avenida de Camilo José Cela nº 23
-Instalación Deportiva Municipal Básica Brasil - General Yagüe,AVENIDA BRASIL 19,,
+Instalación Deportiva Municipal Básica Brasil - General Yagüe,AVENIDA BRASIL 19,San Germán 5,Calle San Germán nº 5
 Instalación Deportiva Municipal Básica Briviesca,CALLE BRIVIESCA 4,Manuel Caldeiro,Paseo de la Castellana nº 298
 Instalación Deportiva Municipal Básica Brujas,CALLE BRUJAS 32,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Brunete,CALLE BRUNETE 1,Facultad Derecho,Avenida Complutense nº 23
@@ -114,10 +114,10 @@ Instalación Deportiva Municipal Básica Casa Campo IV,PARQUE CASA CAMPO S/N,INE
 Instalación Deportiva Municipal Básica Casalarreina,CALLE CASALARREINA 28,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Casino de la Reina,CALLE CASINO 3,Embajadores 2,Glorieta de Embajadores nº 2
 Instalación Deportiva Municipal Básica Castroserna,CALLE CASTROSERNA 2,Caramuel,Calle Caramuel nº 51
-Instalación Deportiva Municipal Básica Cazorla,CALLE CAMPILLO DE ARENAS 3,,
+Instalación Deportiva Municipal Básica Cazorla,CALLE CAMPILLO DE ARENAS 3,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Cementerio Civil,AVENIDA DAROCA 101,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica Cerro Blanco,CALLE ALBARDIN 7,,
-Instalación Deportiva Municipal Básica Cerro Cabezuelos,CALLE VILLALOBOS 46,,
+Instalación Deportiva Municipal Básica Cerro Blanco,CALLE ALBARDIN 7,San Delfín,Calle San Delfín nº 9
+Instalación Deportiva Municipal Básica Cerro Cabezuelos,CALLE VILLALOBOS 46,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Cerro Negro,CALLE CERRO NEGRO 5,Puente de Vallecas,Avenida de la Albufera nº 6
 Instalación Deportiva Municipal Básica Circuito Natural Footing Retiro,PARQUE EL RETIRO s/n,Antonio Maura,Calle Antonio Maura nº 15
 Instalación Deportiva Municipal Básica Circuito de Footing Casa de Campo,PARQUE CASA DE CAMPO s/n,Puerta del Ángel,Plaza Puerta del Ángel nº 4
@@ -129,13 +129,13 @@ Instalación Deportiva Municipal Básica Clara del Rey,CALLE CLARA DEL REY 61,Co
 Instalación Deportiva Municipal Básica Club Deportivo Alzola,CALLE SEGURA 74,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Club de Petanca Esperanza de Canilllas,CALLE SILVANO 63,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Club de Petanca Peonias,CALLE PEONIAS 2,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica Cocheras (Ciudad Lineal),CALLE SAN LAMBERTO s/n,,
+Instalación Deportiva Municipal Básica Cocheras (Ciudad Lineal),CALLE SAN LAMBERTO s/n,Marqués de Corbera 52,Avenida Marqués de Corbera nº 52
 Instalación Deportiva Municipal Básica Cocheras (Retiro),CALLE COCHERAS 1,Pedro Bosch,Calle Cerro de la Plata nº 2
 Instalación Deportiva Municipal Básica Colombia,CALLE COLOMBIA 59,Colombia,Calle Colombia nº 7
 Instalación Deportiva Municipal Básica Colonia Euskalduna,CALLE HERMANDAD DE DONANTES DE SANGRE 7,Glorieta de Cádiz,Calle Antonio López nº 129
-Instalación Deportiva Municipal Básica Colonia Marconi,AVENIDA MARCONI s/n,,
-Instalación Deportiva Municipal Básica Colonia San Cristóbal de Los Ángeles,CALLE ROCAFORT s/n,,
-Instalación Deportiva Municipal Básica Colonia Sierra del Valle,CALLE PAYASO FOFO 7,,
+Instalación Deportiva Municipal Básica Colonia Marconi,AVENIDA MARCONI s/n,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica Colonia San Cristóbal de Los Ángeles,CALLE ROCAFORT s/n,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica Colonia Sierra del Valle,CALLE PAYASO FOFO 7,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Colonia los Taxistas,"CALLE SIERRA DE CUERDA LARGA 41, 43, 45 y 47",Sierra Toledana,Camino de Valderribas nº 94
 Instalación Deportiva Municipal Básica Concejal Gabriel Fernández (Parque Cuña Verde),CALLE CUART DE POBLET 6,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Conde Duque,CALLE SANTA CRUZ DE MARCENADO 21,Conde Duque,Calle Conde Duque nº 22
@@ -159,14 +159,14 @@ Instalación Deportiva Municipal Básica El Bosco,CALLE EL BOSCO 14,Plaza del En
 Instalación Deportiva Municipal Básica El Bosque,PLAZA GOLMAYO 17,Pío XII,Avenida Pío XII nº 3
 Instalación Deportiva Municipal Básica El Capricho I,PASEO ALAMEDA DE OSUNA 48,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica El Capricho II,PASEO ALAMEDA DE OSUNA 46,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica El Cruce,CALLE SANTIAGO AMON 6y8,,
-Instalación Deportiva Municipal Básica El Espinillo I,CALLE TERTULIA 7,,
-Instalación Deportiva Municipal Básica El Espinillo II,CALLE CONSENSO 5,,
-Instalación Deportiva Municipal Básica El Espinillo III,CALLE UNANIMIDAD s/n,,
+Instalación Deportiva Municipal Básica El Cruce,CALLE SANTIAGO AMON 6y8,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica El Espinillo I,CALLE TERTULIA 7,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica El Espinillo II,CALLE CONSENSO 5,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica El Espinillo III,CALLE UNANIMIDAD s/n,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica El Parque,PASEO COMANDANTE FORTEA 25,Paseo de Moret,Paseo de Moret nº 11
 Instalación Deportiva Municipal Básica El Pedernoso - Parque de Villa Rosa - Paco Caño,CALLE PEDROÑERAS 42,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica El Plantío,CALLE RAFAEL VILLA S/N,Facultad Derecho,Avenida Complutense nº 23
-Instalación Deportiva Municipal Básica El Torero,CALLE TORERO 10,,
+Instalación Deportiva Municipal Básica El Torero,CALLE TORERO 10,San Delfín,Calle San Delfín nº 9
 Instalación Deportiva Municipal Básica El Vandel,CALLE FLORENCIO CANO CRISTOBAL 9,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Electra,CALLE CRONOS 65,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Enrique Tierno Galván,PARQUE ENRIQUE TIERNO GALVAN s/n,Juan Martín,Calle Juan Martín el Empecinado nº 16
@@ -175,16 +175,16 @@ Instalación Deportiva Municipal Básica Esfinge,CALLE ESFINGE 60,Gutierre de Ce
 Instalación Deportiva Municipal Básica Esperanza I - Club Virgen de la Esperanza,CALLE SILVANO 65,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Esperanza II,CALLE SILVANO 61,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Estanque de las Tormentas,CALLE ARROYO DE POZUELO S/N,Facultad Derecho,Avenida Complutense nº 23
-Instalación Deportiva Municipal Básica Estefanita,CALLE ESTEFANITA 7,,
+Instalación Deportiva Municipal Básica Estefanita,CALLE ESTEFANITA 7,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Estíbaliz,CALLE ESTIBALIZ 30,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Euterpe,CALLE EUTERPE 1,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Eva Duarte,CALLE DOCTOR GOMEZ ULLA 9,Ortega y Gasset 87,Calle Ortega y Gasset nº 87
 Instalación Deportiva Municipal Básica Evangelios-Almendrales,CALLE EVANGELIOS 4,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Fermín Caballero,CALLE FERMIN CABALLERO 88,Francos Rodríguez,Calle Francos Rodríguez nº 62
-Instalación Deportiva Municipal Básica Francisco Laguna,CALLE FRANCISCO LAGUNA 26,,
+Instalación Deportiva Municipal Básica Francisco Laguna,CALLE FRANCISCO LAGUNA 26,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Frontón Orcasitas,AVENIDA RAFAELA YBARRA 103,Glorieta de Cádiz,Calle Antonio López nº 129
-Instalación Deportiva Municipal Básica Frontón Polideportivo San Fermín,CALLE ESTAFETA 2,,
-Instalación Deportiva Municipal Básica Frontón San Fermín,CAMINO PERALES 136,,
+Instalación Deportiva Municipal Básica Frontón Polideportivo San Fermín,CALLE ESTAFETA 2,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica Frontón San Fermín,CAMINO PERALES 136,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Frontón Tudelillas,AVENIDA PABLO IGLESIAS 62,Pablo Iglesias,Calle Francisco Balseiro nº 1
 Instalación Deportiva Municipal Básica Fuente Espina,CALLE FUENTESPINA 29,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Fuente de Lima,CALLE FUENTE DE LIMA 24,Caramuel,Calle Caramuel nº 51
@@ -197,12 +197,12 @@ Instalación Deportiva Municipal Básica Glorieta Avenida San Luis,CALLE Añastr
 Instalación Deportiva Municipal Básica Glorieta de Segovia,PASEO Ciudad de Plasencia s/n,Segovia 26,Calle Segovia nº 26
 Instalación Deportiva Municipal Básica Gran Vía de Hortaleza,AVENIDA GRAN VIA DE HORTALEZA 1,Pío XII,Avenida Pío XII nº 3
 Instalación Deportiva Municipal Básica Guadalajara,AVENIDA GUADALAJARA S/N,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica Hermanos Trueba,CALLE HERMANOS TRUEBA 30,,
+Instalación Deportiva Municipal Básica Hermanos Trueba,CALLE HERMANOS TRUEBA 30,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Hogar del Ferroviario,AVENIDA MEDITERRANEO S/N,Doctor Lozano,Calle Sierra Toledana nº 33
 Instalación Deportiva Municipal Básica Hornero,CALLE HORNERO 1,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Huerta de la Salud,CALLE ALCOBENDAS 3,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Illescas,CALLE ILLESCAS s/n,Caramuel,Calle Caramuel nº 51
-Instalación Deportiva Municipal Básica Imagen,CALLE IMAGEN 23,,
+Instalación Deportiva Municipal Básica Imagen,CALLE IMAGEN 23,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Isabel Patacón,CALLE ISABEL PATACON S/N,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Isla de Tabarca,CALLE SANTIAGO DE COMPOSTELA 104,Francos Rodríguez,Calle Francos Rodríguez nº 62
 Instalación Deportiva Municipal Básica Iván de Vargas,TRAVESIA IVAN DE VARGAS 4,Ermita Santo,Paseo de la Ermita del Santo nº 48
@@ -218,7 +218,7 @@ Instalación Deportiva Municipal Básica Jazmin,CALLE JAZMIN 36,Chamartín,Calle
 Instalación Deportiva Municipal Básica Jesús Aprendiz,CALLE ANTONIO DIAZ-CAÑABATE 9,Niño Jesús,Calle Doctor Esquerdo nº 161
 Instalación Deportiva Municipal Básica Jesús Divino Obrero,CALLE HUMANES S/N,Plaza del Encuentro,Calle Arroyo de las Pilillas nº 6
 Instalación Deportiva Municipal Básica Joaquín Ibarra,CALLE JOAQUIN IBARRA S/N,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica José Durán,AVENIDA PARQUE DE PALOMERAS BAJAS 10,,
+Instalación Deportiva Municipal Básica José Durán,AVENIDA PARQUE DE PALOMERAS BAJAS 10,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica José de Cadalso,CALLE JOSE DE CADALSO s/n,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica José de Pasamonte,AVENIDA DOCTOR GARCIA TAPIA 51,Marroquina,Calle Camino de los Vinateros nº 108
 Instalación Deportiva Municipal Básica Juan Clemente Núñez,CALLE JUAN CLEMENTE NU&amp;Ntilde;EZ 1,Carlota O’Neill,Calle Carlota O'Neill nº 32
@@ -228,14 +228,14 @@ Instalación Deportiva Municipal Básica Julián González,CALLE JULIAN GONZALEZ
 Instalación Deportiva Municipal Básica La Cabrera,CALLE LA CABRERA 33,Francos Rodríguez,Calle Francos Rodríguez nº 62
 Instalación Deportiva Municipal Básica La Chimenea,CALLE VALLANDES 5,Antonio López,Calle Eugenio Caxes frente al nº 12
 Instalación Deportiva Municipal Básica La Chopera,CALLE ESCULTOR PERESEJO 86,Facultad Derecho,Avenida Complutense nº 23
-Instalación Deportiva Municipal Básica La Diligencia,CALLE DILGENCIA 7,,
+Instalación Deportiva Municipal Básica La Diligencia,CALLE DILGENCIA 7,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica La Masó,CALLE LA MASO 34,Pedro Rico,Calle Pedro Rico nº 4
-Instalación Deportiva Municipal Básica La Perla,CALLE CORINDON 3,,
+Instalación Deportiva Municipal Básica La Perla,CALLE CORINDON 3,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Las Rosas,AVENIDA NIZA s/n,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Las Vistillas,PLAZA GABRIEL MIRO s/n,Segovia 26,Calle Segovia nº 26
 Instalación Deportiva Municipal Básica Lili Alvarez,CALLE LA RIVIERA 4,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Lonja de la Seda,CALLE LONJA DE LA SEDA 32,Caramuel,Calle Caramuel nº 51
-Instalación Deportiva Municipal Básica Los Arbolitos,RONDA SUR S/N,,
+Instalación Deportiva Municipal Básica Los Arbolitos,RONDA SUR S/N,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Los Caprichos,AVENIDA CAPRICHOS 1,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Los Coronales,CALLE BAHIA DE MALAGA 5,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Los Cármenes,CALLE ALHAMBRA 35,Caramuel,Calle Caramuel nº 51
@@ -244,14 +244,14 @@ Instalación Deportiva Municipal Básica Los Morales,CALLE MORALES 31,Caramuel,C
 Instalación Deportiva Municipal Básica Los Morales - Patrimonio Humanidad I,CALLE PATRIMONIO DE LA HUMANIDAD 37,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Los Morales - Patrimonio Humanidad II,CALLE MORALES s/n,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Los Poblados,AVENIDA POBLADOS s/n,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
-Instalación Deportiva Municipal Básica Los Rosales I,AVENIDA LOS ROSALES 131,,
+Instalación Deportiva Municipal Básica Los Rosales I,AVENIDA LOS ROSALES 131,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Lucano,CALLE LUCANO s/n,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Luis Buitrago,CALLE LUIS BUITRAGO 7y11,Pío XII,Avenida Pío XII nº 3
 Instalación Deportiva Municipal Básica Luis Mitjans,CALLE LUIS MITJANS 15,Valderribas,Calle Doctor Esquerdo nº 191
 Instalación Deportiva Municipal Básica Lyon - Flandes,"CALLE LYON 136 (c/v Calle Flandes, 4 posterior)",Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Machupichu,AVENIDA MACHUPICHU 50,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Madrid - Las Tablas,CALLE FROMISTA 5,Pedro Rico,Calle Pedro Rico nº 4
-Instalación Deportiva Municipal Básica Madrid Sur,CALLE PUERTO DE VELATE 18,,
+Instalación Deportiva Municipal Básica Madrid Sur,CALLE PUERTO DE VELATE 18,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Mallorca,CALLE AGASTIA s/n,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Manizales,CALLE GALAPA 10,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Mar de Japón,CALLE MAR DEL JAPON 7,Carlota O’Neill,Calle Carlota O'Neill nº 32
@@ -261,7 +261,7 @@ Instalación Deportiva Municipal Básica Martala I,CALLE PICO DE LOS ARTILLEROS 
 Instalación Deportiva Municipal Básica Maruja Mallo,AVENIDA MARUJA MALLO 7,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica María Inmaculada,CAMINO CRUCES s/n,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica María de Austria,PARQUE EMPERATRIZ MARÍA DE AUSTRIA s/n,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
-Instalación Deportiva Municipal Básica María de Villota,CALLE ESTEFANITA 3,,
+Instalación Deportiva Municipal Básica María de Villota,CALLE ESTEFANITA 3,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Matilde Gayo,CALLE MATILDE GAYO 4,Antonio López,Calle Eugenio Caxes frente al nº 12
 Instalación Deportiva Municipal Básica Maíz,CALLE RICARDO BELTRAN Y ROZPIDE 28,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Medio Amposta,CALLE ALBERIQUE s/n,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
@@ -284,24 +284,24 @@ Instalación Deportiva Municipal Básica Mozart,CALLE MOZART s/n,Paseo de la Flo
 Instalación Deportiva Municipal Básica Mártires Maristas,AVENIDA MARTIRES MARISTAS 2,Francos Rodríguez,Calle Francos Rodríguez nº 62
 Instalación Deportiva Municipal Básica Nevado de Cumbal,CALLE NEVADO DEL CUMBAL 4,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Nicolasa Gómez,CALLE NICOLASA GOMEZ 1,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
-Instalación Deportiva Municipal Básica Novecento,CALLE NOVECENTO 6,,
+Instalación Deportiva Municipal Básica Novecento,CALLE NOVECENTO 6,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Nuestra Señora de Loreto,CALLE TIMON 16,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Nuestra Señora de la Paloma,CARRERA SAN FRANCISCO 4,Plaza de los Carros,Carrera de San Francisco nº 1
-Instalación Deportiva Municipal Básica Nueva Esperanza,CALLE ANOETA 1,,
+Instalación Deportiva Municipal Básica Nueva Esperanza,CALLE ANOETA 1,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Ontanilla,AVENIDA LOS POBLADOS s/n,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Orcasur,AVENIDA ORCASUR 53,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Orión-Jupiter,CALLE ORION 52,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Oscar y Jesús,CALLE SOLEDAD CAZORLA 22,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Oyarzun,PLAZA OYARZUN 1,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica P.A.R. Antonio López,CALLE ANTONIO LOPEZ 27,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
-Instalación Deportiva Municipal Básica P.A.R. Avda. Marqués de Corbera,AVENIDA MARQUES DE CORBERA 62,,
+Instalación Deportiva Municipal Básica P.A.R. Avda. Marqués de Corbera,AVENIDA MARQUES DE CORBERA 62,Marqués de Corbera 52,Avenida Marqués de Corbera nº 52
 Instalación Deportiva Municipal Básica P.A.R. Ramón Gómez de la Serna,CALLE RAMON GOMEZ DE LA SERNA 49,Francos Rodríguez,Calle Francos Rodríguez nº 62
-Instalación Deportiva Municipal Básica PAR Manuel Noya,CALLE MANUEL NOYA 2,,
+Instalación Deportiva Municipal Básica PAR Manuel Noya,CALLE MANUEL NOYA 2,San Delfín,Calle San Delfín nº 9
 Instalación Deportiva Municipal Básica PAR Rafaela Ybarra,AVENIDA RAFAELA YBARRA 51,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Pablo Casals,PASEO ERMITA DEL SANTO 10,Puerta del Ángel,Plaza Puerta del Ángel nº 4
 Instalación Deportiva Municipal Básica Padre Claret,CALLE PADRE CLARET 18,Corazón de María,Calle Santa Hortensia nº 31
 Instalación Deportiva Municipal Básica Padre Damián,CALLE PADRE DAMIAN 26,Alberto Alcocer,Avenida de Alberto Alcocer nº 22
-Instalación Deportiva Municipal Básica Palomeras Bajas,CALLE PUERTO DE BALBARAN s/n,,
+Instalación Deportiva Municipal Básica Palomeras Bajas,CALLE PUERTO DE BALBARAN s/n,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Parque Adelfas,CALLE MARTINEZ CORROCHANO esquina  con calle Luis Mitjans 26,Conde de Casal,Plaza del Conde de Casal nº 8
 Instalación Deportiva Municipal Básica Parque Agustín Rodríguez Sahagún I,PASEO CAPITAN BLANCO ARGIBAY S/N,Francos Rodríguez,Calle Francos Rodríguez nº 62
 Instalación Deportiva Municipal Básica Parque Agustín Rodríguez Sahagún II,CALLE SINESIO DELGADO 30,Torre Cepsa,Calle Sinesio Delgado nº 2
@@ -324,7 +324,7 @@ Instalación Deportiva Municipal Básica Parque Doña Guiomar I - Sporting de Ho
 Instalación Deportiva Municipal Básica Parque Doña Guiomar II,CARRETERA ESTACION DE HORTALEZA 7,Pío XII,Avenida Pío XII nº 3
 Instalación Deportiva Municipal Básica Parque Doña Guiomar III,CALLE MONÓVAR 4,Pío XII,Avenida Pío XII nº 3
 Instalación Deportiva Municipal Básica Parque El Calero,CALLE VIRGEN DE NURIA S/N,Avenida Donostiarra,Calle Virgen de la Alegría nº 18
-Instalación Deportiva Municipal Básica Parque Estafeta,CALLE ESTAFETA 4,,
+Instalación Deportiva Municipal Básica Parque Estafeta,CALLE ESTAFETA 4,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Parque Eugenia de Montijo,CALLE PARQUE EUGENIA DE MONTIJO S/N,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Parque Gabriela Mistral,CALLE ROSALIA DE CASTRO 69,Facultad Derecho,Avenida Complutense nº 23
 Instalación Deportiva Municipal Básica Parque General García Escámez,CALLE ANSELMO LORENZO s/n,Caramuel,Calle Caramuel nº 51
@@ -332,7 +332,7 @@ Instalación Deportiva Municipal Básica Parque Huerta de la Salud,CALLE MAR DE 
 Instalación Deportiva Municipal Básica Parque Huerta del Obispo,CALLE JUAN PEÑALVER 34,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Parque La Viña,CALLE CONCEJO DE TEVERGA 2,Méndez Álvaro,Calle Retama nº 5
 Instalación Deportiva Municipal Básica Parque Luis Buñuel,CALLE LUIS BUÑUEL 38,Pavones,Calle Hacienda de Pavones nº 342
-Instalación Deportiva Municipal Básica Parque Madrid Sur,CALLE LA DILIGENCIA 5,,
+Instalación Deportiva Municipal Básica Parque Madrid Sur,CALLE LA DILIGENCIA 5,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Parque Manoteras - Vélez Rubio,INST. DEPORTIVA BASICA BACARES 20,Chamartín,Calle Rodríguez Jaén nº 40
 Instalación Deportiva Municipal Básica Parque Manuel Azaña,CALLE VIRGEN DE LA PAZ 7 y 9,Puente de Ventas,Avenida de Daroca nº 2
 Instalación Deportiva Municipal Básica Parque Marchamalo,PARQUE MARCHAMALO s/n,Plaza del Encuentro,Calle Arroyo de las Pilillas nº 6
@@ -340,7 +340,7 @@ Instalación Deportiva Municipal Básica Parque Martala I,CALLE PICO DE LOS ARTI
 Instalación Deportiva Municipal Básica Parque Martala II,CALLE PICO DE LOS ARTILLEROS 21,Marroquina,Calle Camino de los Vinateros nº 108
 Instalación Deportiva Municipal Básica Parque Meseta,RONDA COOPERATIVAS 6,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Parque Norte,CALLE Arzobispo Morcillo 9,Manuel Caldeiro,Paseo de la Castellana nº 298
-Instalación Deportiva Municipal Básica Parque Olof Palme,CALLE CERECINOS 4,,
+Instalación Deportiva Municipal Básica Parque Olof Palme,CALLE CERECINOS 4,San Delfín,Calle San Delfín nº 9
 Instalación Deportiva Municipal Básica Parque Plata y Castañar,PASEO LOS FERROVIARIOS s/n,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Parque Pradolongo,PARQUE PRADOLONGO s/n,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Parque Rafael Finat,CALLE DAMASQUILLO S/N,Caramuel,Calle Caramuel nº 51
@@ -392,7 +392,7 @@ Instalación Deportiva Municipal Básica Pista de Skate,CALLE CAPITAN BLANCO ARG
 Instalación Deportiva Municipal Básica Pistas de Petanca Dehesa de la Villa,CALLE FRANCOS RODRIGUEZ 1,Estrecho,Calle Navarra nº 1
 Instalación Deportiva Municipal Básica Plan Parcial,CALLE PLAN PARCIAL 3,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Plaza Arturo Barea,PLAZA Arturo Barea s/n,Segovia 26,Calle Segovia nº 26
-Instalación Deportiva Municipal Básica Plaza Colonia Oroquieta,CARRETERA ANDALUCIA S/N,,
+Instalación Deportiva Municipal Básica Plaza Colonia Oroquieta,CARRETERA ANDALUCIA S/N,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Plaza Fonsagrada,PLAZA FONSAGRADA 6,Remonta,Calle Azucenas nº 1
 Instalación Deportiva Municipal Básica Plaza Munguía,PLAZA MUNGUIA 1,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Plaza Vallandes,CALLE CALESAS 4,Antonio López,Calle Eugenio Caxes frente al nº 12
@@ -413,16 +413,16 @@ Instalación Deportiva Municipal Básica Pradillo - Santa Marca,CALLE PRADILLO 2
 Instalación Deportiva Municipal Básica Prosperidad,CALLE PRADILLO 25,Prosperidad,Calle Suero de Quiñones nº 2
 Instalación Deportiva Municipal Básica Pueblo Nuevo II,CALLE ASCAO s/n,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Puente Ventas,CALLE VIRGEN DE LA PAZ 7 y 9,Puente de Ventas,Avenida de Daroca nº 2
-Instalación Deportiva Municipal Básica Puerto Balbarán,CALLE PUERTO DE BALBARAN 4 y 6,,
-Instalación Deportiva Municipal Básica Puerto Corlite,CALLE PUERTO DE CORLITE 8,,
-Instalación Deportiva Municipal Básica Puerto Costabona,CALLE PUERTO DE COSTABONA 7,,
-Instalación Deportiva Municipal Básica Puerto Costabona Tenis,CALLE PUERTO DE VELATE 18,,
+Instalación Deportiva Municipal Básica Puerto Balbarán,CALLE PUERTO DE BALBARAN 4 y 6,Concordia,Calle Arroyo del Olivar nº 6
+Instalación Deportiva Municipal Básica Puerto Corlite,CALLE PUERTO DE CORLITE 8,Concordia,Calle Arroyo del Olivar nº 6
+Instalación Deportiva Municipal Básica Puerto Costabona,CALLE PUERTO DE COSTABONA 7,Concordia,Calle Arroyo del Olivar nº 6
+Instalación Deportiva Municipal Básica Puerto Costabona Tenis,CALLE PUERTO DE VELATE 18,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Puerto Lumbreras,CALLE PUERTO DE LUMBRERAS S/N,Pavones,Calle Hacienda de Pavones nº 342
-Instalación Deportiva Municipal Básica Puerto Monasterio,CALLE PUERTO DEL MONASTERIO 17,,
+Instalación Deportiva Municipal Básica Puerto Monasterio,CALLE PUERTO DEL MONASTERIO 17,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Puerto Rico,CALLE PUERTO RICO 54,Colombia,Calle Colombia nº 7
-Instalación Deportiva Municipal Básica Puerto Velate,CALLE PUERTO DE VELATE 9,,
-Instalación Deportiva Municipal Básica Puerto de Béjar,CALLE PUERTO DE BEJAR 7,,
-Instalación Deportiva Municipal Básica Puerto de Costabona,CALLE PUERTO DE COSTABONA 7,,
+Instalación Deportiva Municipal Básica Puerto Velate,CALLE PUERTO DE VELATE 9,Concordia,Calle Arroyo del Olivar nº 6
+Instalación Deportiva Municipal Básica Puerto de Béjar,CALLE PUERTO DE BEJAR 7,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica Puerto de Costabona,CALLE PUERTO DE COSTABONA 7,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Pádel - Madrid Las Tablas,AVENIDA CAMINO DE SANTIAGO 25,Manuel Caldeiro,Paseo de la Castellana nº 298
 Instalación Deportiva Municipal Básica Quinta de Los Molinos I,"CALLE ALCALA 535, c/v Avenida 25 Septiembre",Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Quinta de Los Molinos II,"CALLE IQUITOS 1c/vcalleAlcalá,535",Gutierre de Cetina,Calle Gutierre de Cetina nº 77
@@ -432,16 +432,16 @@ Instalación Deportiva Municipal Básica Ramón Power,CALLE MIGUEL RIESCO 7,Carl
 Instalación Deportiva Municipal Básica Ramón Pérez de Ayala,CALLE RAMON PEREZ DE AYALA 80,Plaza del Encuentro,Calle Arroyo de las Pilillas nº 6
 Instalación Deportiva Municipal Básica Rancho del Cordobés,CALLE EDUARDO BARREIROS 19,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica Recinto Ferial San Antonio de la Florida,GLORIETA SAN ANTONIO DE LA FLORIDA S/N,Paseo de la Florida,Paseo de la Florida nº 8
-Instalación Deportiva Municipal Básica Ricardo Damas,CALLE RICARDO DAMAS 4,,
-Instalación Deportiva Municipal Básica Ronda Sur,RONDA SUR 231,,
+Instalación Deportiva Municipal Básica Ricardo Damas,CALLE RICARDO DAMAS 4,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica Ronda Sur,RONDA SUR 231,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Rosa Jardón,CALLE ROSA JARDON 11,Pío XII,Avenida Pío XII nº 3
-Instalación Deportiva Municipal Básica San Anselmo,CALLE SAN ANSELMO 22,,
+Instalación Deportiva Municipal Básica San Anselmo,CALLE SAN ANSELMO 22,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica San Aureliano,CALLE SAN AURELIANO s/n,Glorieta de Cádiz,Calle Antonio López nº 129
 Instalación Deportiva Municipal Básica San Benigno,CALLE SAN BENIGNO 3,Caramuel,Calle Caramuel nº 51
-Instalación Deportiva Municipal Básica San Cristóbal de Los Ángeles II,CALLE GODELLA 48,,
-Instalación Deportiva Municipal Básica San Cristóbal de Los Ángeles III,CALLE MONCADA 123,,
+Instalación Deportiva Municipal Básica San Cristóbal de Los Ángeles II,CALLE GODELLA 48,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Básica San Cristóbal de Los Ángeles III,CALLE MONCADA 123,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica San Juan Bautista - Cidamón,CALLE AGASTIA s/n,Condesa de Venadito,Calle Condesa de Venadito nº 2
-Instalación Deportiva Municipal Básica San Lamberto,CALLE SAN LAMBERTO 20,,
+Instalación Deportiva Municipal Básica San Lamberto,CALLE SAN LAMBERTO 20,Marqués de Corbera 52,Avenida Marqués de Corbera nº 52
 Instalación Deportiva Municipal Básica San Pascual,CALLE ESTEBAN MORA S/N,Derechos Humanos,Calle Derechos Humanos nº 12
 Instalación Deportiva Municipal Básica San Pol,CALLE SAN POL DE MAR 7,Paseo de la Florida,Paseo de la Florida nº 8
 Instalación Deportiva Municipal Básica Sanchinarro I,CALLE Infanta Catalina Micaela 33,Manuel Caldeiro,Paseo de la Castellana nº 298
@@ -453,14 +453,14 @@ Instalación Deportiva Municipal Básica Sangenjo,CALLE SANGENJO 42,Pedro Rico,C
 Instalación Deportiva Municipal Básica Santa Ana I,CALLE HOSPITALET DE LLOBREGAT 11,Pedro Rico,Calle Pedro Rico nº 4
 Instalación Deportiva Municipal Básica Santa Ana II,PASEO ALAMEDILLAS 2,Pedro Rico,Calle Pedro Rico nº 4
 Instalación Deportiva Municipal Básica Santa Hortensia,CALLE SANTA HORTENSIA 34,Corazón de María,Calle Santa Hortensia nº 31
-Instalación Deportiva Municipal Básica Santa Petronila,CARRETERA ANDALUCIA S/N,,
+Instalación Deportiva Municipal Básica Santa Petronila,CARRETERA ANDALUCIA S/N,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Básica Santa Rita,CALLE ALBA DE TORMES 2,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
 Instalación Deportiva Municipal Básica Santa Virgilia,CALLE SANTA VIRGILIA 17 posterior,Carlota O’Neill,Calle Carlota O'Neill nº 32
 Instalación Deportiva Municipal Básica Santuario de Valverde (Montecarmenlo),AVENIDA SANTUARIO DE VALVERDE 41,Pedro Rico,Calle Pedro Rico nº 4
 Instalación Deportiva Municipal Básica Sepúlveda,CALLE SEPULVEDA 220,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Seseña,CALLE SESEÑA 2,Caramuel,Calle Caramuel nº 51
 Instalación Deportiva Municipal Básica Sierra Elvira,CALLE SIERRA ELVIRA 37,Doctor Lozano,Calle Sierra Toledana nº 33
-Instalación Deportiva Municipal Básica Sierra del Valle,CALLE ARROYO DEL OLIVAR s/n,,
+Instalación Deportiva Municipal Básica Sierra del Valle,CALLE ARROYO DEL OLIVAR s/n,Concordia,Calle Arroyo del Olivar nº 6
 Instalación Deportiva Municipal Básica Sinesio Delgado,CALLE ISLA DE OZA 61,Francos Rodríguez,Calle Francos Rodríguez nº 62
 Instalación Deportiva Municipal Básica Soto Hidalgo,CALLE RIAÑO 1,Gutierre de Cetina,Calle Gutierre de Cetina nº 77
 Instalación Deportiva Municipal Básica Talbot,CALLE TALBOT 3,Glorieta de Cádiz,Calle Antonio López nº 129
@@ -495,20 +495,19 @@ Instalación Deportiva Municipal Básica Vital Aza,CALLE VITAL AZA s/n,Gutierre 
 Instalación Deportiva Municipal Básica Yeseros,CALLE YESEROS 1,Pavones,Calle Hacienda de Pavones nº 342
 Instalación Deportiva Municipal Básica Yeserías I,PASEO YESERIAS 1,Pirámides,Calle Toledo nº 181
 Instalación Deportiva Municipal Básica Zazuar,CALLE ZAZUAR 1,Pavones,Calle Hacienda de Pavones nº 342
-Instalación Deportiva Municipal Básica Zofío,CALLE RICARDO BELTRAN Y ROZPIDE 12,,
+Instalación Deportiva Municipal Básica Zofío,CALLE RICARDO BELTRAN Y ROZPIDE 12,San Delfín,Calle San Delfín nº 9
 Instalación Deportiva Municipal Básica de Ribadeo y Verín,PLAZAS INTERIORES ENTRE PLAZA RIBADEO 1,Remonta,Calle Azucenas nº 1
 Instalación Deportiva Municipal Básica del Poblado Dirigido (Olesa de Montserrat),AVENIDA CARDENAL HERRERA ORIA 108,Pedro Rico,Calle Pedro Rico nº 4
 Instalación Deportiva Municipal Básica paseo de la Vaguada,PASEO VAGUADA 13,Remonta,Calle Azucenas nº 1
 Instalación Deportiva Municipal Básica poblado de Santa Ana,CALLE Braille 15,Pedro Rico,Calle Pedro Rico nº 4
 Instalación Deportiva Municipal Canal de Remo Puente de la Princesa,PASARELA SUR DEL PUENTE DE LA PRINCESA s/n,Glorieta de Cádiz,Calle Antonio López nº 129
-Instalación Deportiva Municipal Embajadores M-30,CALLE PUERTO DE LA CRUZ VERDE 29,,
+Instalación Deportiva Municipal Embajadores M-30,CALLE PUERTO DE LA CRUZ VERDE 29,Embajadores 191,Calle Sodio nº 1B
 Instalación Deportiva Municipal Nave de Terneras,PASEO CHOPERA 10,Entrada Matadero,Paseo de la Chopera nº 14
 Instalación Deportiva Municipal Parque Calle Vado,CALLE ANTONIO LOPEZ 189,Glorieta de Cádiz,Calle Antonio López nº 129
-Instalación Deportiva Municipal Parque Lineal del Manzanares Victoriano González,CALLE EMBAJADORES 324,,
-Instalación Deportiva Municipal Puente de Praga,AVENIDA MANZANARES 176,,
+Instalación Deportiva Municipal Parque Lineal del Manzanares Victoriano González,CALLE EMBAJADORES 324,Embajadores 191,Calle Sodio nº 1B
+Instalación Deportiva Municipal Puente de Praga,AVENIDA MANZANARES 176,San Delfín,Calle San Delfín nº 9
 Instalación Deportiva Municipal Pádel  Marqués de Monistrol,CALLE RIBERA DEL MANZANARES 1,Paseo de la Florida,Paseo de la Florida nº 8
 Instalación Deportiva Municipal Rocódromo 'Roc 30',AVENIDA MANZANARES 108,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9
-Instalación deportiva municipal básica Campo de Fútbol Gabriel Fernández,CALLE CUART DE POBLET 0,Puerta del Sol A,Puerta del Sol nº 1
 Parque Lineal UZI 0.06 Arroyofresno,CALLE MARIA DE MAEZTU 1,Facultad Derecho,Avenida Complutense nº 23
 Pista de Patinaje Paco de Lucía,AUDITORIO PACO DE LUCIA s/n,Caramuel,Calle Caramuel nº 51
 Pista de petanca Centro de Mayores La Vaguada,AVENIDA MONFORTE DE LEMOS 36,Remonta,Calle Azucenas nº 1
