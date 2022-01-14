@@ -1,5 +1,8 @@
-from modules import geo_calculations as geo
 import pandas as pd
+import sys
+sys.path.insert(0,'/Volumes/GoogleDrive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/modules')
+from geo_calculations import distance_meters
+
 
 
 def nearest_station(instalaciones,bicimad_stations):
@@ -19,13 +22,12 @@ def nearest_station(instalaciones,bicimad_stations):
             name=bicimad_stations["name"][j]
             address=bicimad_stations["address"][j]
             id_station=bicimad_stations["id"][j]
-            e=geo.distance_meters(a, b, c, d)
+            e=distance_meters(a, b, c, d)
 
             distance=distance.append({"distance":e[0],"latitude":c,"longitude":d,"name":name,"address":address,"id":id_station},ignore_index=True)
 
         nearest_station=distance.iloc[distance["distance"].idxmin()]
         nearest_distance=nearest_distance.append({"pk_ins":pk,"nombre_ins":nombre,"ins_latitude":a,"ins_longitude":b,"bicimad_latitude":nearest_station[1],"bicimad_longitude":nearest_station[2],"distance":nearest_station[0],"name_station":nearest_station[3],"address_station":nearest_station[4],"id":nearest_station[5]},ignore_index=True)
-
 
     #Eliminar esta primera fila cuando haya corregido el error del nombre de las columnas
     nearest_distance.rename(columns={"nombre_ins":"Place of interest","name_station":"Station location","address_station":"Station ID","id":"BiciMAD station"}, inplace=True)

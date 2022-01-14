@@ -22,4 +22,4 @@ if __name__ == "__main__":
     ins_nearest_stations=an.get_general_table(instalaciones,nearest_distance)
 
     result_nearest_station=an.result_table(ins_nearest_stations)
-    rp.create_csv(result_nearest_station,"data/results/nearest_distance.csv") #Save the result table in csv
+    rp.create_csv(result_nearest_station,"data/results/result_nearest_distance.csv") #Save the result table in csv
