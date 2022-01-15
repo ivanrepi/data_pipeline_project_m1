@@ -46,3 +46,8 @@ def result_table(ins_nearest_stations):
     nearest_bicimad_station["Place address"]=ins_nearest_stations["CLASE-VIAL"]+" "+ins_nearest_stations["NOMBRE-VIA"] +" "+ ins_nearest_stations["NUM"].fillna("s/n") #Put all address information in 1 column
     result_nearest_station = nearest_bicimad_station[nearest_bicimad_station.columns[[0,6,4,5]]] #Take only the columns we need for the final result, and order them as per initial requeriment
     return result_nearest_station
+
+def bicimad_station(place,df):
+    return df.loc[df["Place of interest"] == place]
+
+

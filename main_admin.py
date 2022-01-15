@@ -5,7 +5,8 @@ from p_reporting import reporting as rp
 
 
 # DATA PIPELINE
-if __name__ == "__main__":
+
+def main():
 
     #Get bicimad_stations dataset as well as sport installations from repo
     bicimad_stations=ac.acquisition("data/raw/bicimad_stations.csv")
@@ -20,6 +21,11 @@ if __name__ == "__main__":
 
     #Create a general table with all detailed information from Sports installations (address, transport, coordinates, etc.)
     ins_nearest_stations=an.get_general_table(instalaciones,nearest_distance)
+    rp.create_csv(ins_nearest_stations,"data/processed/ins_nearest_stations.csv")
 
     result_nearest_station=an.result_table(ins_nearest_stations)
     rp.create_csv(result_nearest_station,"data/results/result_nearest_distance.csv") #Save the result table in csv
+
+
+if __name__ == '__main__':
+    main()
