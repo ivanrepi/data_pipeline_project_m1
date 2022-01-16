@@ -12,3 +12,7 @@ def distance_meters(lat_start, long_start, lat_finish, long_finish):
     start = to_mercator(lat_start, long_start)
     finish = to_mercator(lat_finish, long_finish)
     return start.distance(finish)
+
+def distance_meters_simplified(mercator1, mercator2):
+    # return the distance in metres between to latitude/longitude pair point in degrees (i.e.: 40.392436 / -3.6994487)
+    return mercator1.distance(mercator2)
