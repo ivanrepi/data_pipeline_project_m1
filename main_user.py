@@ -22,6 +22,7 @@ def argument_parser():
 def main(arguments):
     #Import dataframe where we have stroed all nearest bicimad stations
     nearest_station=ac.acquisition_csv("data/results/nearest_bicimad_station.csv")
+
     if arguments.choice is None:
         rp.create_html(nearest_station)
         url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
@@ -32,8 +33,15 @@ def main(arguments):
         bicimad_station=an.bicimad_station(arguments.choice,nearest_station)
         print(f'For {arguments.choice} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"][0]} , ADDRESS: {bicimad_station["Station location"][0]}')
         
+        try:
+            free_bikes=ac.get_station_details(ac.acquisition_csv("data/processed/result_general.csv"),arguments.choice)["dock_bikes"]
+            print('\n')
+            print(f'There are {free_bikes} free bikes in this station')
+        except:
+            print("Free Bikes: Information not available")
+
         #Create a link for each position and put it here as a variable:
-        wb.open("https://www.google.com/maps/dir/'40.479033,-3.708264'/40.463028,-3.69733/@40.479033,-3.708264,17z/data=!3m1!4b1!4m7!4m6!1m3!2m2!1d-3.708264!2d40.479033!1m0!3e2")
+        #wb.open("https://www.google.com/maps/dir/'40.479033,-3.708264'/40.463028,-3.69733/@40.479033,-3.708264,17z/data=!3m1!4b1!4m7!4m6!1m3!2m2!1d-3.708264!2d40.479033!1m0!3e2")
 
     print('\n')
     print('--//--- closing application ---//--')
