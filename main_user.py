@@ -1,8 +1,10 @@
 from p_acquisition import acquisition as ac
 from p_analysis import analysis as an
+from p_reporting import reporting as rp
 import argparse
 import pandas as pd
 import webbrowser as wb
+import os
 
 # DATA PIPELINE
 
@@ -21,7 +23,10 @@ def main(arguments):
     #Import dataframe where we have stroed all nearest bicimad stations
     nearest_station=ac.acquisition_csv("data/results/nearest_bicimad_station.csv")
     if arguments.choice is None:
-        print(nearest_station.to_string())
+        rp.create_html(nearest_station)
+        url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
+        wb.open_new_tab("file://"+url)
+   
 
     elif arguments.choice!="":
         bicimad_station=an.bicimad_station(arguments.choice,nearest_station)
