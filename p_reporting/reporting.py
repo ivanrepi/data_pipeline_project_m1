@@ -1,21 +1,19 @@
 import pandas as pd
 import smtplib, ssl
+from pretty_html_table import build_table
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 #Create CSV function
 def create_csv(df,path):
     df.to_csv(path, index=False)
-    return print("CSV created properly")
+    return ("CSV created properly")
 
 
 def create_html(df):
-    html = df.to_html()
-    
-    # write html to file
-    text_file = open("nearest_bicimad_station.html", "w")
-    text_file.write(html)
-    text_file.close()
+    output = build_table(df, 'blue_light')
+    with open('nearest_bicimad_station.html', 'w') as f:
+        f.write(output)
     return ('html created properly')
 
 

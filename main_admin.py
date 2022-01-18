@@ -18,7 +18,9 @@ def main():
     print('\n')
     terminal_number=int(input("Enter your validation code: "))
     if terminal_number==security_number: #In case the number sent is the same entered in the terminal, ok to run admin functions
-        
+        print('\n')
+        print("--//--- Be patient... We are preparing the results ---//--")
+        print('\n')
         #Get bicimad_stations dataset from repo as well as sports installations from API
         bicimad_stations=ac.acquisition_csv("data/raw/bicimad_stations.csv")
         instalaciones=ac.acquisition_json("https://datos.madrid.es/egob/catalogo/200215-0-instalaciones-deportivas.json")
