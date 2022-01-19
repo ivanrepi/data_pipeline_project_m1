@@ -16,8 +16,8 @@ pd.options.display.max_colwidth = 10000
 def argument_parser():
     print('--//--- starting application ---//--')
     print('\n')
-    parser = argparse.ArgumentParser(description='Set operation type')
-    parser.add_argument("-i", "--choice", help="Choose a Place of Interest" , type=str)
+    parser = argparse.ArgumentParser(description='Set the result')
+    parser.add_argument("-i", "--choice", help="Please, type (1) to get the table for every 'Place of interest' , or (2) To get the table for a specific 'Place of interest'" , type=str)
     args = parser.parse_args()
     return args
 
@@ -27,14 +27,20 @@ def main(arguments):
     nearest_station=ac.acquisition_csv("data/results/nearest_bicimad_station.csv")
 
     if arguments.choice is None:
-        rp.create_html(nearest_station)
+        rp.create_html(nearest_station.iloc[:,0:4])
+        url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
+        wb.open_new_tab("file://"+url)
+
+    if arguments.choice == "1":
+        rp.create_html(nearest_station.iloc[:,0:4])
         url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
         wb.open_new_tab("file://"+url)
    
 
-    elif arguments.choice!="":
+    elif arguments.choice=="2":
+        place=str(input("Please, enter a specific 'Place of interest' and press ENTER: '"))
         result_general=ac.acquisition_csv("data/processed/result_general.csv")
-        similarity=an.similarity_ratio(result_general,arguments.choice,50)
+        similarity=an.similarity_ratio(result_general,place,50)
 
         if isinstance(similarity, pd.DataFrame) and len(similarity)>1:  
             print("We have found next results: \n")
@@ -47,7 +53,7 @@ def main(arguments):
             
         else:
             bicimad_station=an.bicimad_station(similarity,nearest_station)
-            print(f'For {arguments.choice} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"].to_string(index=False)} , Address: {bicimad_station["Station location"].to_string(index=False)}')
+            print(f'For {place} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"].to_string(index=False)} , Address: {bicimad_station["Station location"].to_string(index=False)}')
             try:
                 free_bikes=ac.get_station_details(result_general,similarity)["dock_bikes"]
                 print('\n')
