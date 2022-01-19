@@ -25,11 +25,16 @@ def acquisition_json(path):
         df=pd.read_csv("data/raw/instalaciones.csv", sep=";").drop_duplicates()
         return df
 
+
 def get_station_details(df,place):
     instalacion_n= df.loc[df["title"] == place]
-    station_id = instalacion_n["id_y"][0]
+    station_id = instalacion_n["id_y"].to_string(index=False)
+    header={'email':'ivanrepi@hotmail.com','password':'Bicimad2022'}
+    url='https://openapi.emtmadrid.es/v1/mobilitylabs/user/login/'
+    get_token=requests.get(url, headers=header).json()
+    accessToken=get_token['data'][0]['accessToken']
     url='https://openapi.emtmadrid.es/v1/transport/bicimad/stations/'+str(station_id)
-    header = {'accessToken': 'cc69b23a-0339-45ad-84f8-fae8d31ab78c'}
+    header = {'accessToken': str(accessToken) }
     my_dataset=requests.get(url, headers=header).json()
     return (my_dataset['data'][0])
 

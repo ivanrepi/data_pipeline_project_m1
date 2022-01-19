@@ -5,6 +5,9 @@ import argparse
 import pandas as pd
 import webbrowser as wb
 import os
+import warnings;
+warnings.filterwarnings('ignore');
+pd.options.display.max_colwidth = 10000
 
 # DATA PIPELINE
 
@@ -30,18 +33,30 @@ def main(arguments):
    
 
     elif arguments.choice!="":
-        bicimad_station=an.bicimad_station(arguments.choice,nearest_station)
-        print(f'For {arguments.choice} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"][0]} , ADDRESS: {bicimad_station["Station location"][0]}')
-        
-        try:
-            free_bikes=ac.get_station_details(ac.acquisition_csv("data/processed/result_general.csv"),arguments.choice)["dock_bikes"]
-            print('\n')
-            print(f'There are {free_bikes} free bikes in this station')
-        except:
-            print("Free Bikes: Information not available")
+        result_general=ac.acquisition_csv("data/processed/result_general.csv")
+        similarity=an.similarity_ratio(result_general,arguments.choice,50)
 
-        #Create a link for each position and put it here as a variable:
-        #wb.open("https://www.google.com/maps/dir/'40.479033,-3.708264'/40.463028,-3.69733/@40.479033,-3.708264,17z/data=!3m1!4b1!4m7!4m6!1m3!2m2!1d-3.708264!2d40.479033!1m0!3e2")
+        if isinstance(similarity, pd.DataFrame) and len(similarity)>1:  
+            print("We have found next results: \n")
+            print(similarity["title"].to_string(index=False))
+            print("\n")
+            print("Please, select an option and enter the correct name")
+
+        elif len(similarity)==0:
+            print("There is no results for your search. Please, enter a correct name and try it again.")
+            
+        else:
+            bicimad_station=an.bicimad_station(similarity,nearest_station)
+            print(f'For {arguments.choice} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"].to_string(index=False)} , Address: {bicimad_station["Station location"].to_string(index=False)}')
+            try:
+                free_bikes=ac.get_station_details(result_general,similarity)["dock_bikes"]
+                print('\n')
+                print(f'There are {free_bikes} free bikes in this station')
+                print('\n')
+                input("Press Enter to get the indications...")
+                wb.open(bicimad_station["Indications"].to_string(index=False))
+            except:
+                print("Free Bikes: Information not available")
 
     print('\n')
     print('--//--- closing application ---//--')
