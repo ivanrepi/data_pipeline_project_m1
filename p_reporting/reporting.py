@@ -18,7 +18,7 @@ def create_csv(df,path):
     df.to_csv(path, index=False)
     return ("CSV created properly")
 
-
+#Create html function
 def create_html(df):
     output = build_table(df, 'blue_light')
     with open('nearest_bicimad_station.html', 'w') as f:
@@ -26,7 +26,7 @@ def create_html(df):
     return ('html created properly')
 
 
-
+#Send email function, importing the secret information from env file
 def send_email(secret_number):
     sender_email = os.getenv('sender_email')
     password = os.getenv('password_sender')
@@ -34,7 +34,7 @@ def send_email(secret_number):
     print('\n')
     receiver_email = input("Please, enter your email: ")
 
-    if admin_email==receiver_email:
+    if admin_email==receiver_email: #We double check that the user has entered the email from the admin
         print('\n')
 
         message = MIMEMultipart("alternative")
