@@ -1,7 +1,14 @@
 import pandas as pd
 import requests
 import sys
-sys.path.insert(0,'/Volumes/GoogleDrive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/p_reporting')
+
+#Import local path file 
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+
+sys.path.insert(0,os.getenv('path')+'p_reporting')
 from reporting import create_csv
 
 
@@ -29,7 +36,7 @@ def acquisition_json(path):
 def get_station_details(df,place):
     instalacion_n= df.loc[df["title"] == place]
     station_id = instalacion_n["id_y"].to_string(index=False)
-    header={'email':'ivanrepi@hotmail.com','password':'Bicimad2022'}
+    header={'email':os.getenv('emt_madrid_email'),'password':os.getenv('emt_madrid_pwd')}
     url='https://openapi.emtmadrid.es/v1/mobilitylabs/user/login/'
     get_token=requests.get(url, headers=header).json()
     accessToken=get_token['data'][0]['accessToken']

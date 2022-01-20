@@ -6,8 +6,15 @@ import pandas as pd
 import webbrowser as wb
 import os
 import warnings;
-warnings.filterwarnings('ignore');
-pd.options.display.max_colwidth = 10000
+warnings.filterwarnings('ignore'); #To hide the erros to the user
+pd.options.display.max_colwidth = 10000 #To display the longest strings in the terminal 
+
+
+#Import path from the env file
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
 
 # DATA PIPELINE
 
@@ -27,18 +34,15 @@ def main(arguments):
     nearest_station=ac.acquisition_csv("data/results/nearest_bicimad_station.csv")
 
     if arguments.choice is None:
-        rp.create_html(nearest_station.iloc[:,0:4])
-        url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
-        wb.open_new_tab("file://"+url)
+        print("Please, when starting the app, set the flag -i and type (1) to get the table for every 'Place of interest' , or (2) To get the table for a specific 'Place of interest' \n Press -h for more information")
 
     if arguments.choice == "1":
         rp.create_html(nearest_station.iloc[:,0:4])
-        url = '/Users/ivan.repilado/Google Drive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/nearest_bicimad_station.html'
-        wb.open_new_tab("file://"+url)
+        wb.open_new_tab("file://"+(os.getenv('path')+"nearest_bicimad_station.html"))
    
 
     elif arguments.choice=="2":
-        place=str(input("Please, enter a specific 'Place of interest' and press ENTER: '"))
+        place=str(input("Please, enter a specific 'Place of interest' and press ENTER: "))
         result_general=ac.acquisition_csv("data/processed/result_general.csv")
         similarity=an.similarity_ratio(result_general,place,50)
 
@@ -53,6 +57,7 @@ def main(arguments):
             
         else:
             bicimad_station=an.bicimad_station(similarity,nearest_station)
+            print('\n')
             print(f'For {place} the nearest BiciMAD station is ==> {bicimad_station["BiciMAD station"].to_string(index=False)} , Address: {bicimad_station["Station location"].to_string(index=False)}')
             try:
                 free_bikes=ac.get_station_details(result_general,similarity)["dock_bikes"]

@@ -13,3 +13,4 @@ def get_coordinates(table):
 
     return table
 
+

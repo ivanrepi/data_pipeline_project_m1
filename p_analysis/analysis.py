@@ -1,7 +1,15 @@
 import pandas as pd
 from fuzzywuzzy import fuzz
 import sys
-sys.path.insert(0,'/Volumes/GoogleDrive/Mi unidad/IRONHACK/bootcamp/projects/data_pipeline_project_m1/modules')
+
+#Import local path file 
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+
+
+sys.path.insert(0,os.getenv('path')+'modules')
 from geo_calculations import to_mercator
 from geo_calculations import distance_meters_simplified
 
