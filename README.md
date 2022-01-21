@@ -11,14 +11,11 @@ The app contains 2 types of user, the admin one and the final user one.
 - The **administrator** role (with an authentication double step) will be in charge of uploading the information for the user, as well as access to the different APIs with their own credentials.
 - The **final user** role will be able to chose, if he/she wants to get a table with all 'Places of Interest' of Madrid's city, or conversely he/she wants to receive the nearest station for an specific 'Place of Interest'.
 
-&nbsp;
-
 ---
 ## **Getting Started**
 ### :baby: **Status**
 This is part of Ironhack Data Analytics Bootcamp. The main goal is to build a complete pipeline app.
 
-&nbsp;
 ### :computer: **Dependencies**
 
 - This repository is tested on **Python 3.7+**.
@@ -52,14 +49,13 @@ This is part of Ironhack Data Analytics Bootcamp. The main goal is to build a co
 
 &nbsp;
 ---
+---
 ## :lock: **ADMIN ROLE**
 
 ### :clipboard: **Overview**
 Admin role should chose what kind of 'Place of Interest' the user will use. It can be obtained [here](https://datos.madrid.es/nuevoMadrid/swagger-ui-master-2.2.10/dist/index.html?url=/egobfiles/api.datos.madrid.es.json#/).
 
 The app includes a double authentication step. Admin will receive a security number in his/her email, to verify his/her identity.
-
-&nbsp;
 
 
 ### :wrench: **Installing**
@@ -78,8 +74,6 @@ Once all dependencies are clear, follow the next steps to install it:
     ```
 4. Open the main_admin.py file, and edit the URL of the 'Place of Interest'. By default, it is settled "Instalaciones Deportivas Básicas de Madrid".
 
-&nbsp;
-
 ### :point_right: **Executing program**
 1. Open the terminal.
 2. Look for the main_admin.py file in your repo.
@@ -91,8 +85,6 @@ Once all dependencies are clear, follow the next steps to install it:
 5. If email address is correct, admin should receive a security code in his/her email.
 6. Type this code in the terminal and press enter.
 7. If code is correct, it starts the process to prepare the result table (which one that user will work with).
-
-&nbsp;
 
 ### :boom: **Core technical concepts and inspiration**
 The main goal of this role is to work with double authentication mode, as well as divide the app in two kind of users. 
@@ -109,9 +101,6 @@ User role should chose if wants to get the complete table of 'Places of Interest
 The app includes an advance searcher, which is able to find the result even it has not been written correctly.
 If it finds more than one similar result, it shows user all the results found.
 
-&nbsp;
-
-
 ### :wrench: **Installing**
 Once all dependencies are clear, follow the next steps to install it:
 1. Clone this [repo](https://github.com/ivanrepi/nearest_bicimad_station)
@@ -119,8 +108,6 @@ Once all dependencies are clear, follow the next steps to install it:
     ```
     path="path of the repo"
     ```
-
-&nbsp;
 
 ### :point_right: **Executing program**
 1. Open the terminal.
@@ -143,7 +130,6 @@ Once all dependencies are clear, follow the next steps to install it:
     - Get the number of available bikes in that moment.
     - Press enter to obtain the walking instructions to arrive until the station (Google Maps).
 
-&nbsp;
 
 ### :boom: **Core technical concepts and inspiration**
 It has been developed with an argparse function, which helps the user to chose, before opening the app, to decide how want to get the results.
@@ -153,7 +139,7 @@ It includes also fuzzywuzzy library, working as an advanced searcher. It helps t
 Finally, thanks to EMT Madrid API, user can obtain in real time, the number of available bikes in that nearest station.
 
 &nbsp;
----
+
 ---
 
 ### :file_folder: **Folder structure**
@@ -198,10 +184,10 @@ Finally, thanks to EMT Madrid API, user can obtain in real time, the number of a
 
 &nbsp;
 ### :shit: **ToDo**
-:black_square_button: Create an API to connect to Places of Interests webstite.
-:black_square_button: Get all places of interest at the same time, and not have to settled it in the main_admin script.
-:black_square_button: Add possibility to go by car, walking or taxi to the nearest BiciMad station.
-:black_square_button: Create the UI to help the final user to use it.
+:black_square_button: Create an API to connect to Places of Interests webstite.  
+:black_square_button: Get all places of interest at the same time, and not have to settled it in the main_admin script.  
+:black_square_button: Add possibility to go by car, walking or taxi to the nearest BiciMad station.  
+:black_square_button: Create the UI to help the final user to use it.  
 
 ---
 
