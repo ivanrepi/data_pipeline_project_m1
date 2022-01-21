@@ -44,8 +44,7 @@ def main(arguments):
     elif arguments.choice=="2": #If user decide for an specific value
         place=str(input("Please, enter a specific 'Place of interest' and press ENTER: ")) #Type the place of Interest the user are interested in
         result_general=ac.acquisition_csv("data/processed/result_general.csv") #Import the result table
-        similarity=an.similarity_ratio(result_general,place,50) #We find for similaritues. Ratio value set in 50 (we can change it)
-
+        similarity=an.similarity_ratio(result_general,place,70) #We find for similaritues. Ratio value set in 50 (we can change it)
         if isinstance(similarity, pd.DataFrame) and len(similarity)>1:  #If we have a list of similar results (more than 1), user should chose for someone
             print("We have found next results: \n")
             print(similarity["title"].to_string(index=False))

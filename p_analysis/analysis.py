@@ -45,7 +45,12 @@ def nearest_bicimad_station(df1): #We take just the columns we need for the fina
 
  
 def bicimad_station(place,df): #To return only the row of the place of Interest that user has choose
-    return df.loc[df["Place of interest"] == place]
+    #a=place._get_value(0, 'title')
+    try:
+        similarity=place["title"].to_string(index=False) #Depending of the row, we need to convert it to string
+    except:
+        similarity=place
+    return df.loc[df["Place of interest"] == similarity]
 
 
 def similarity_ratio(result_general,input,ratio): #Function to find similar results
