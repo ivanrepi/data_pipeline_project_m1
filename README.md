@@ -1,77 +1,193 @@
-# Data Project README file
+# Where is my bike?
 
-The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
-Bearing that in mind, your job is to: 
-- Tell them what it is (with context).
-- Show them what it looks like in action.
-- Show them how they use it.
-- Tell them any other relevant details.
+Given a place of interest in Madrid, the application will return the nearest BiciMad station as well as walking directions to reach it.
 
-![Image](https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/05/aiexcerpt.png)
+![Image](https://www.cnet.com/a/img/18OAz996_EOEv_30SBWrw99jBoA=/2018/03/23/691b3998-080c-4a8c-aa68-575ff95c1b55/pile-of-bikes.jpg)
 
 ---
+## **Description**
+The app contains 2 types of user, the admin one and the final user one.
 
-## **Formatting**
-Your readers will most likely view your README in a browser so please keep that in mind when formatting its content: 
-- Use proper format when necesary (e.g.: `import pandas as pd`). 
-- Categorize content using two or three levels of header beneath. 
-- Make use of **emphasis** to call out important words. 
-- Link to project pages for related libraries you mention. Link to Wikipedia, Wiktionary, even Urban Dictionary definitions for words of which a reader may not be familiar. Make amusing cultural references. 
-- Add links to related projects or services. 
+- The **administrator** role (with an authentication double step) will be in charge of uploading the information for the user, as well as access to the different APIs with their own credentials.
+- The **final user** role will be able to chose, if he/she wants to get a table with all 'Places of Interest' of Madrid's city, or conversely he/she wants to receive the nearest station for an specific 'Place of Interest'.
 
-> Here you have a markdown cheatsheet [Link](https://commonmark.org/help/) and tutorial [Link](https://commonmark.org/help/tutorial/).
+&nbsp;
 
-
-## **Start writing ASAP:**
-*Last but not least, by writing your README soon you give yourself some pretty significant advantages. Most importantly, you’re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included.*
-
-
-## **Suggested Structure:**
-
-### :raising_hand: **Name** 
-Self-explanatory names are best. If the name sounds too vague or unrelated, it may be a signal to move on. It also must be catchy. Images, Logo, Gif or some color is strongly recommended.
-
+---
+## **Getting Started**
 ### :baby: **Status**
-Alpha, Beta, 1.1, Ironhack Data Analytics Final Project, etc... It's OK to write a sentence, too. The goal is to let interested people know where this project is at.
+This is part of Ironhack Data Analytics Bootcamp. The main goal is to build a complete pipeline app.
 
-### :running: **One-liner**
-Having a one-liner that describes the pipeline/api/app is useful for getting an idea of what your code does in slightly greater detail. 
+&nbsp;
+### :computer: **Dependencies**
 
-### :computer: **Technology stack**
-Python, Pandas, Scipy, Scikit-learn, etc. Indicate the technological nature of the software, including primary programming language(s), main libraries and whether the software is intended as standalone or as a module in a framework or other ecosystem.
+- This repository is tested on **Python 3.7+**.
+- Create a virtual environment with the version of Python you're going to use and activate it.
+
+- Install [pandas](https://pandas.pydata.org/docs/user_guide/index.html) library. Copy and paste next command in your master branch:
+    ```
+    conda install pandas
+    ```
+- Install [geopandas](https://geopandas.org/en/stable/) library. Copy and paste next command in your master branch:
+    ```
+    conda install -c conda-forge geopandas
+    ```
+- Install [requests](https://docs.python-requests.org/en/latest/) library. Copy and paste next command in your master branch:
+    ```
+    python -m pip install requests
+    ```
+- Install [dotenv](https://pypi.org/project/python-dotenv/) library. Copy and paste next command in your master branch:
+    ```
+    pip install python-dotenv
+    ```
+- Install [pretty-html-table](https://pypi.org/project/pretty-html-table/) library. Copy and paste next command in your master branch:
+    ```
+    pip install pretty-html-table
+    ```
+- Install [fuzzywuzzy](https://pypi.org/project/pretty-html-table/) library. Copy and paste next command in your master branch:
+    ```
+    pip install fuzzywuzzy
+    ```
+- Be sure next Python modules are installed: [sys](https://docs.python.org/3/library/sys.html) , [os](https://docs.python.org/3/library/os.html), [smtplib](https://docs.python.org/3/library/smtplib.html), [email.mime](https://docs.python.org/3/library/email.mime.html), [random](https://docs.python.org/3/library/random.html), [warnings](https://docs.python.org/3/library/warnings.html), [webbrowser](https://docs.python.org/es/3/library/webbrowser.html).
+
+&nbsp;
+---
+## :lock: **ADMIN ROLE**
+
+### :clipboard: **Overview**
+Admin role should chose what kind of 'Place of Interest' the user will use. It can be obtained [here](https://datos.madrid.es/nuevoMadrid/swagger-ui-master-2.2.10/dist/index.html?url=/egobfiles/api.datos.madrid.es.json#/).
+
+The app includes a double authentication step. Admin will receive a security number in his/her email, to verify his/her identity.
+
+&nbsp;
+
+
+### :wrench: **Installing**
+Once all dependencies are clear, follow the next steps to install it:
+1. Clone this [repo](https://github.com/ivanrepi/nearest_bicimad_station)
+2. Create an account on EMT Madrid developer website ([here](https://mobilitylabs.emtmadrid.es/es/doc/new-app))
+3. In your local repository, create the file ".env", with the next parameters:
+    ```
+    path="path of the repo"
+
+    sender_email = "type your email" 
+    password_sender = "type your email password"
+    admin_email="type admin email" #For double auth. Can be different of the sender one
+    emt_madrid_email="email from step 2"
+    emt_madrid_pwd="password from step 2"
+    ```
+4. Open the main_admin.py file, and edit the URL of the 'Place of Interest'. By default, it is settled "Instalaciones Deportivas Básicas de Madrid".
+
+&nbsp;
+
+### :point_right: **Executing program**
+1. Open the terminal.
+2. Look for the main_admin.py file in your repo.
+3. Execute the next command:
+    ```
+    python main_admin.py
+    ```
+4. It will ask you for an admin email. It should be the same settled in ".env" file.
+5. If email address is correct, admin should receive a security code in his/her email.
+6. Type this code in the terminal and press enter.
+7. If code is correct, it starts the process to prepare the result table (which one that user will work with).
+
+&nbsp;
 
 ### :boom: **Core technical concepts and inspiration**
-Why does it exist? Frame your project for the potential user. Compare/contrast your project with other, similar projects so the user knows how it is different from those projects. Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
+The main goal of this role is to work with double authentication mode, as well as divide the app in two kind of users. 
+Working with this division, final user will not have to wait for data preparation (as this is part of the admin work)
 
-### :wrench: **Configuration**
-Requeriments, prerequisites, dependencies, installation instructions.
+&nbsp;
 
-### :see_no_evil: **Usage**
-Parameters, return values, known issues, thrown errors.
+
+## **USER ROLE**
+
+### :clipboard: **Overview**
+User role should chose if wants to get the complete table of 'Places of Interest' of Madrid with its nearest Bicimad station, or contrary wants to know the nearest BiciMad station for an specific 'Place of Interest'.
+
+The app includes an advance searcher, which is able to find the result even it has not been written correctly.
+If it finds more than one similar result, it shows user all the results found.
+
+&nbsp;
+
+
+### :wrench: **Installing**
+Once all dependencies are clear, follow the next steps to install it:
+1. Clone this [repo](https://github.com/ivanrepi/nearest_bicimad_station)
+2. In your local repository, create or edit the file ".env", with the next parameters:
+    ```
+    path="path of the repo"
+    ```
+
+&nbsp;
+
+### :point_right: **Executing program**
+1. Open the terminal.
+2. Look for the main_user.py file in your repo.
+3. Execute the next command to get the list of possible arguments to run the app:
+    ```
+    python main_user.py -h
+    ```
+-  Run next command to get the complete table of all "Places of Interest" with its nearest BiciMad station:
+    ```
+    python main_user.py -i 1
+    ```
+- Run next command to get the nearest BiciMad station for an specific "Place of Interest":
+
+    ```
+    python main_user.py -i 2
+    ```
+    - Enter the 'Place of Interest' you are interested in and press Enter.
+    - Get the nearest BiciMad station with its location.
+    - Get the number of available bikes in that moment.
+    - Press enter to obtain the walking instructions to arrive until the station (Google Maps).
+
+&nbsp;
+
+### :boom: **Core technical concepts and inspiration**
+It has been developed with an argparse function, which helps the user to chose, before opening the app, to decide how want to get the results.
+
+It includes also fuzzywuzzy library, working as an advanced searcher. It helps the user to find the result even it is written wrongly.
+
+Finally, thanks to EMT Madrid API, user can obtain in real time, the number of available bikes in that nearest station.
+
+&nbsp;
+---
+---
 
 ### :file_folder: **Folder structure**
 ```
 └── project
     ├── __trash__
+    │ 
     ├── .git
+    │ 
     ├── .gitignore
-    ├── requeriments.txt
+    │ 
+    ├── nearest_bicimad_station.html
+    │ 
     ├── README.md
+    │ 
     ├── main_user.py
+    │ 
     ├── main_admin.py
-    ├── notebooks
-    │   ├── notebook1.ipynb
-    │   └── notebook2.ipynb
+    │ 
     ├── modules
-    │   ├── geo_calculations.py
+    │   └── geo_calculations.py
+    │ 
     ├── p_acquisition
-    │   ├── acquisition.py
+    │   └── acquisition.py
+    │
     ├── p_wrangling
-    │   ├── wrangling.py
+    │   └── wrangling.py
+    │
     ├── p_analysis
-    │   ├── analysis.py
+    │   └── analysis.py
+    │
     ├── p_reporting
-    │   ├── reporting.py
+    │   └── reporting.py
+    │
     └── data
         ├── raw
         ├── processed
@@ -80,14 +196,12 @@ Parameters, return values, known issues, thrown errors.
 
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
+&nbsp;
 ### :shit: **ToDo**
-Next steps, features planned, known bugs (shortlist).
-
-### :information_source: **Further info**
-Credits, alternatives, references, license.
-
-### :love_letter: **Contact info**
-Getting help, getting involved, hire me please.
+:black_square_button: Create an API to connect to Places of Interests webstite.
+:black_square_button: Get all places of interest at the same time, and not have to settled it in the main_admin script.
+:black_square_button: Add possibility to go by car, walking or taxi to the nearest BiciMad station.
+:black_square_button: Create the UI to help the final user to use it.
 
 ---
 
