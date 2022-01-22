@@ -48,7 +48,7 @@ This is part of Ironhack Data Analytics Bootcamp. The main goal is to build a co
 - Be sure next Python modules are installed: [sys](https://docs.python.org/3/library/sys.html) , [os](https://docs.python.org/3/library/os.html), [smtplib](https://docs.python.org/3/library/smtplib.html), [email.mime](https://docs.python.org/3/library/email.mime.html), [random](https://docs.python.org/3/library/random.html), [warnings](https://docs.python.org/3/library/warnings.html), [webbrowser](https://docs.python.org/es/3/library/webbrowser.html).
 
 &nbsp;
----
+
 ---
 ## :lock: **ADMIN ROLE**
 
